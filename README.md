@@ -66,6 +66,8 @@ Density Evolution vs. Redshift
 
 Both
 
+![Theory Cosmology Unified Banner](figures/banner_cosmology.png)
+
 [![Python](https://img.shields.io/badge/Python-3.10+-blue.svg)]()
 [![License: CC BY 4.0](https://img.shields.io/badge/License-CC%20BY%204.0-lightgrey.svg)]()
 [![Made with ❤️ by Marta Reinhardt](https://img.shields.io/badge/Made%20with%20%E2%9D%A4%EF%B8%8F-Marta%20Reinhardt-pink.svg)]()
