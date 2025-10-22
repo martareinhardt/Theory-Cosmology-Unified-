@@ -1,1 +1,2 @@
-tests_main.py -v
+def test_alguma_coisa():
+    assert True
