@@ -3,65 +3,64 @@ import matplotlib.pyplot as plt
 from scipy.integrate import odeint
 
 # Parâmetros cosmológicos (baseados em Planck 2018)
-H0 = 67.74  # km/s/Mpc, mas usaremos unidades arbitrárias para simplicidade (H0=1 para normalização)
+H0 = 67.74  # km/s/Mpc — usaremos unidades normalizadas (H0 = 1)
 Omega_m0 = 0.3089
 Omega_L0 = 0.6911
-Omega_r0 = 9.04e-5  # Aproximado para radiação (inclui fótons e neutrinos)
+Omega_r0 = 9.04e-5  # radiação (fótons + neutrinos)
 
 # Função para a equação de Friedmann: da/dt / a = H(a)
 def H(a):
     return np.sqrt(Omega_r0 / a**4 + Omega_m0 / a**3 + Omega_L0)
 
-    # Equação diferencial para a(t): da/dt = a * H(a)
-    def da_dt(a, t):
-        return a * H(a)
+# Equação diferencial: da/dt = a * H(a)
+def da_dt(a, t):
+    return a * H(a)
 
-        # Tempo inicial e final (em unidades normalizadas onde H0=1, t em 1/H0)
-        t = np.linspace(1e-10, 2.0, 1000)  # De perto de t=0 até ~2/H0 (futuro)
+# Tempo inicial e final (em unidades de 1/H0)
+t = np.linspace(1e-10, 2.0, 1000)  # de t~0 até o futuro
 
-        # Condição inicial: a(0) ≈ 0, mas usamos pequeno valor para evitar divisão por zero
-        a0 = 1e-10
+# Condição inicial: a(0) ≈ 0 → usar valor pequeno
+a0 = 1e-10
 
-        # Integra numericamente
-        a = odeint(da_dt, a0, t)[:,0]
+# Integra numericamente a(t)
+a = odeint(da_dt, a0, t)[:, 0]
 
-        # Calcula densidades vs. a (ou z=1/a -1)
-        z = 1/a - 1
-        rho_r = Omega_r0 / a**4
-        rho_m = Omega_m0 / a**3
-        rho_L = Omega_L0 * np.ones_like(a)
+# Calcula densidades vs. a (ou z = 1/a - 1)
+z = 1 / a - 1
+rho_r = Omega_r0 / a**4
+rho_m = Omega_m0 / a**3
+rho_L = Omega_L0 * np.ones_like(a)
 
-        # Encontra redshift de transição radiação-matéria
-        z_rm = Omega_m0 / Omega_r0 - 1  # ~3400
-        # Transição matéria-energia escura
-        z_mL = (Omega_L0 / Omega_m0)**(1/3) - 1  # ~0.33
+# Redshifts de transição
+z_rm = Omega_m0 / Omega_r0 - 1       # radiação-matéria (~3400)
+z_mL = (Omega_L0 / Omega_m0)**(1/3) - 1  # matéria-energia escura (~0.33)
 
-        # Plot
-        fig, ax = plt.subplots(2, 1, figsize=(10, 8))
+# ---------- PLOTS ----------
+fig, ax = plt.subplots(2, 1, figsize=(10, 8))
 
-        # Plot 1: a(t) vs t
-        ax[0].plot(t, a)
-        ax[0].set_xlabel('Tempo normalizado (t * H0)')
-        ax[0].set_ylabel('Fator de escala a(t)')
-        ax[0].set_title('Evolução do Fator de Escala a(t)')
-        ax[0].grid(True)
+# Plot 1: a(t)
+ax[0].plot(t, a)
+ax[0].set_xlabel('Tempo normalizado (t × H₀)')
+ax[0].set_ylabel('Fator de escala a(t)')
+ax[0].set_title('Evolução do Fator de Escala a(t)')
+ax[0].grid(True)
 
-        # Plot 2: Densidades vs z
-        ax[1].semilogx(z, rho_r, label='Radiação (Ω_r / a^4)')
-        ax[1].semilogx(z, rho_m, label='Matéria (Ω_m / a^3)')
-        ax[1].semilogx(z, rho_L, label='Energia Escura (Ω_Λ)')
-        ax[1].axvline(z_rm, color='r', linestyle='--', label='Transição Rad-Mat (z≈3400)')
-        ax[1].axvline(z_mL, color='g', linestyle='--', label='Transição Mat-DE (z≈0.33)')
-        ax[1].set_xlabel('Redshift z')
-        ax[1].set_ylabel('Densidades Normalizadas')
-        ax[1].set_title('Transições de Eras: Densidades vs Redshift')
-        ax[1].legend()
-        ax[1].grid(True)
-        ax[1].set_xlim(1e-1, 1e4)  # Foco em z relevante
+# Plot 2: Densidades vs z
+ax[1].semilogx(z, rho_r, label='Radiação (Ω_r / a⁴)')
+ax[1].semilogx(z, rho_m, label='Matéria (Ω_m / a³)')
+ax[1].semilogx(z, rho_L, label='Energia Escura (Ω_Λ)')
+ax[1].axvline(z_rm, color='r', linestyle='--', label=f'Transição Rad-Mat (z≈{z_rm:.0f})')
+ax[1].axvline(z_mL, color='g', linestyle='--', label=f'Transição Mat-DE (z≈{z_mL:.2f})')
+ax[1].set_xlabel('Redshift z')
+ax[1].set_ylabel('Densidades Normalizadas')
+ax[1].set_title('Transições de Eras: Densidades vs Redshift')
+ax[1].legend()
+ax[1].grid(True)
+ax[1].set_xlim(1e-1, 1e4)
 
-        plt.tight_layout()
-        plt.show()
+plt.tight_layout()
+plt.show()
 
-        # Imprime valores de transição
-        print(f"Transição Radiação-Matéria: z = {z_rm:.0f}")
-        print(f"Transição Matéria-Energia Escura: z = {z_mL:.2f}")
+# ---------- RESULTADOS ----------
+print(f"Transição Radiação–Matéria: z ≈ {z_rm:.0f}")
+print(f"Transição Matéria–Energia Escura: z ≈ {z_mL:.2f}")
