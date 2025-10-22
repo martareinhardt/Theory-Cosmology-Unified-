@@ -2,7 +2,7 @@ import numpy as np
 import matplotlib.pyplot as plt
 from scipy.integrate import odeint
 
-# Parâmetros cosmológicos (baseados em Planck 2018)
+# Parâmetros cosmológicos (Planck 2018)
 H0 = 67.74  # km/s/Mpc — usaremos unidades normalizadas (H0 = 1)
 Omega_m0 = 0.3089
 Omega_L0 = 0.6911
@@ -16,7 +16,7 @@ def H(a):
 def da_dt(a, t):
     return a * H(a)
 
-# Tempo inicial e final (em unidades de 1/H0)
+# Tempo (em unidades de 1/H0)
 t = np.linspace(1e-10, 2.0, 1000)  # de t~0 até o futuro
 
 # Condição inicial: a(0) ≈ 0 → usar valor pequeno
@@ -40,20 +40,20 @@ fig, ax = plt.subplots(2, 1, figsize=(10, 8))
 
 # Plot 1: a(t)
 ax[0].plot(t, a)
-ax[0].set_xlabel('Tempo normalizado (t × H₀)')
+ax[0].set_xlabel('Tempo normalizado (t * H0)')
 ax[0].set_ylabel('Fator de escala a(t)')
 ax[0].set_title('Evolução do Fator de Escala a(t)')
 ax[0].grid(True)
 
 # Plot 2: Densidades vs z
-ax[1].semilogx(z, rho_r, label='Radiação (Ω_r / a⁴)')
-ax[1].semilogx(z, rho_m, label='Matéria (Ω_m / a³)')
-ax[1].semilogx(z, rho_L, label='Energia Escura (Ω_Λ)')
-ax[1].axvline(z_rm, color='r', linestyle='--', label=f'Transição Rad-Mat (z≈{z_rm:.0f})')
-ax[1].axvline(z_mL, color='g', linestyle='--', label=f'Transição Mat-DE (z≈{z_mL:.2f})')
+ax[1].semilogx(z, rho_r, label='Radiacao (Omega_r / a^4)')
+ax[1].semilogx(z, rho_m, label='Materia (Omega_m / a^3)')
+ax[1].semilogx(z, rho_L, label='Energia Escura (Omega_L)')
+ax[1].axvline(z_rm, color='r', linestyle='--', label=f'Transicao Rad-Mat (z≈{z_rm:.0f})')
+ax[1].axvline(z_mL, color='g', linestyle='--', label=f'Transicao Mat-DE (z≈{z_mL:.2f})')
 ax[1].set_xlabel('Redshift z')
 ax[1].set_ylabel('Densidades Normalizadas')
-ax[1].set_title('Transições de Eras: Densidades vs Redshift')
+ax[1].set_title('Transicoes de Eras: Densidades vs Redshift')
 ax[1].legend()
 ax[1].grid(True)
 ax[1].set_xlim(1e-1, 1e4)
@@ -62,5 +62,5 @@ plt.tight_layout()
 plt.show()
 
 # ---------- RESULTADOS ----------
-print(f"Transição Radiação–Matéria: z ≈ {z_rm:.0f}")
-print(f"Transição Matéria–Energia Escura: z ≈ {z_mL:.2f}")
+print(f"Transicao Radiacao–Materia: z ≈ {z_rm:.0f}")
+print(f"Transicao Materia–Energia Escura: z ≈ {z_mL:.2f}")
