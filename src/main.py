@@ -51,3 +51,6 @@ plt.show()
 # ---------- RESULTADOS ----------
 print(f"Transicao Radiacao–Materia: z ≈ {z_rm:.0f}")
 print(f"Transicao Materia–Energia Escura: z ≈ {z_mL:.2f}")
+plt.tight_layout()
+plt.savefig("grafico.png")  # salva o gráfico no arquivo
+plt.show()
