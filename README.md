@@ -1,1 +1,69 @@
-# Theory-Cosmology-Unified-
+
+Theory Cosmology Unified
+
+Author: Marta Reinhardt
+
+License: Creative Commons Attribution 4.0 International (CC BY 4.0)
+
+
+---
+
+🪐 Overview
+
+Theory Cosmology Unified is a structured cosmological framework that aims to unify the major epochs of the universe—from the primordial Big Bang to the ultimate cosmic asymptote—under a consistent mathematical and conceptual model.
+
+This project combines theoretical cosmology, Friedmann dynamics, and numerical simulation to visualize and explore the evolution of the scale factor, energy densities, and cosmic transitions between radiation, matter, and dark energy domination.
+
+Repository: https://github.com/martareinhardt/Theory-Cosmology-Unified-
+
+
+---
+
+🔭 Scientific Motivation
+
+The model presented here follows an alphabetic cosmological taxonomy, organizing cosmic evolution into stages designated by Greek letters — from Alpha (the primordial origin) to Omega (the ultimate fate). Each stage introduces new physical components, equations, and symmetries extending the standard Friedmann–Lemaître–Robertson–Walker (FLRW) formulation.
+
+Major Phases:
+
+Symbol	Phase	Description
+
+Alpha	Primordial Origin	Initial singularity; homogeneous and isotropic FLRW start.
+Beta	Early Expansion	Radiation and matter-dominated eras; curvature and dark energy terms emerge.
+Gamma	Structural Alignment	Growth of anisotropies and early structures.
+Delta	Perturbations	Jeans instability and density fluctuation growth.
+Epsilon	Dark Matter	Non-baryonic matter and gravitational halo formation.
+Zeta	Dark Energy	Accelerated expansion; equation of state .
+Eta → Omega	Advanced & Final Eras	Entropy growth, tensor modes, unification attempts, and asymptotic end states.
+
+
+Each equation in the sequence generalizes the Friedmann equation:
+
+\left( \frac{\dot{a}(t)}{a(t)} \right)^2 = \frac{8\pi G}{3} \rho(t) - \frac{k c^2}{a(t)^2} + \frac{\Lambda c^2}{3} + \text{perturbative terms}
+
+
+---
+
+🧮 Numerical Simulation
+
+The Python module provided implements the numerical integration of the Friedmann equation, computing the scale factor  and corresponding density components for radiation, matter, and dark energy.
+
+Dependencies
+
+pip install numpy scipy matplotlib
+
+Running the Simulation
+
+python cosmology_friedmann.py
+
+Output
+
+The script produces two primary plots:
+
+Scale Factor vs. Time 
+
+Density Evolution vs. Redshift 
+
+
+Both
+
+
