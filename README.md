@@ -1,4 +1,4 @@
-![Python](https://img.shields.io/badge/Python-3.11-blue) ![License: CC BY 4.0](https://img.shields.io/badge/license-CC--BY--4.0-lightgrey) ![Status](https://img.shields.io/badge/status-active-success) 
+![Python](https://img.shields.io/badge/Python-3.11-blue) ![Status](https://img.shields.io/badge/status-active-success) 
 ![Build Status](https://github.com/martareinhardt/Theory-Cosmology-Unified-/actions/workflows/python_tests.yml/badge.svg)
 [![License: CC BY 4.0](https://img.shields.io/badge/License-CC%20BY%204.0-lightgrey.svg)](https://creativecommons.org/licenses/by/4.0/)
 
