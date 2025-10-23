@@ -13,7 +13,7 @@ This project combines *theoretical physics*, *numerical analysis*, and *scientif
 
 ## 🚀 How to Run the Project
 
-### 1. Clone the repository  
+###  Clone the repository  
 ```bash
 git clone https://github.com/martareinhardt/Theory-Cosmology-Unified-.git
 cd Theory-Cosmology-Unified-
@@ -34,7 +34,7 @@ notebooks/example_simulation.ipynb
 └── README.md               # This documentation file
 
 '''
-📊 Scientific Goal
+##📊 Scientific Goal
 
 This project investigates:
 
@@ -50,7 +50,7 @@ Partial results and visualizations are stored in the results/ folder and documen
 
 ---
 
-🔭 Next Steps
+##🔭 Next Steps
 
 Implement models with dynamic dark energy
 
@@ -64,7 +64,7 @@ Create an interactive web visualization with Plotly or Bokeh
 
 ---
 
-🤝 Contributing
+##🤝 Contributing
 
 1. Fork this repository
 
