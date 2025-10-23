@@ -34,5 +34,15 @@
 + para visualizar os gráficos de forma interativa.
 + 
 + ---
+├── run_simulations.py      # Código principal de simulação
+├── results/                # Saídas gráficas e dados numéricos
+├── notebooks/              # Experimentos interativos (Jupyter)
+├── paper/                  # Texto científico e anotações
+├── requirements.txt        # Dependências do projeto
+└── README.md               # Este arquivo de instruções
+---
+---
+
+Quando quiser, posso mandar **também o conteúdo completo para o `CONTRIBUTING.md` e templates** (Issue e Pull Request) e te guiar pela criação. Quer que eu prepare agora?0
 + 
 + *© 2025 Marta Reinhardt · Licença CC BY 4.0*
