@@ -38,9 +38,12 @@
 <p align="center">
   <img src="results/sample_cosmology_plot.png" width="500" alt="Simulação Cosmológica">
 </p>
-+ ```
++
+
+ ```
 + para visualizar os gráficos de forma interativa.
 + 
+
 + ---
 ├── run_simulations.py      # Código principal de simulação
 ├── results/                # Saídas gráficas e dados numéricos
@@ -48,6 +51,8 @@
 ├── paper/                  # Texto científico e anotações
 ├── requirements.txt        # Dependências do projeto
 └── README.md               # Este arquivo de instruções
+
+
 ---
 
 ##📊 Objetivo científico
@@ -68,6 +73,7 @@ Resultados parciais e gráficos estão em results/ e no documento técnico em pa
 - Implementar modelos com energia escura dinâmica
 - Automatizar testes com GitHub Actions
 - Adicionar documentação científica em formato LaTeX
+
 ---
 
 Quando quiser, posso mandar **também o conteúdo completo para o `CONTRIBUTING.md` e templates** (Issue e Pull Request) e te guiar pela criação. Quer que eu prepare agora?0
