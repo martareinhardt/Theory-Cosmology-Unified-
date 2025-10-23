@@ -1,32 +1,25 @@
 
+![Python](https://img.shields.io/badge/Python-3.11-blue) ![License: CC BY 4.0](https://img.shields.io/badge/license-CC--BY--4.0-lightgrey) ![Status](https://img.shields.io/badge/status-active-success)
+
+# 🪐 Theory Cosmology Unified
+
+Um modelo numérico para testar hipóteses de **unificação cosmológica**, simulando a variação de constantes físicas ao longo do tempo.  
+Este projeto combina *física teórica*, *análise numérica* e *visualização científica* em Python.
+
+<p align="center">
+  <img src="results/sample_cosmology_plot.png" width="500" alt="Simulação Cosmológica">
+</p>
+
 ---
-+ # 🪐 Theory Cosmology Unified
+
+## 🚀 Como rodar o projeto
+
+### 1. Clonar o repositório  
+```bash
+git clone https://github.com/martareinhardt/Theory-Cosmology-Unified-.git
+cd Theory-Cosmology-Unified-
 + 
-![Python](https://img.shields.io/badge/Python-3.11-blue)
-![License: CC BY 4.0](https://img.shields.io/badge/license-CC--BY--4.0-lightgrey)
-![Status](https://img.shields.io/badge/status-active-success)
----
-+ Um modelo numérico para testar hipóteses de **unificação cosmológica**, simulando a variação de constantes físicas ao longo do tempo.  
-+ Este projeto combina *física teórica*, *análise numérica* e *visualização científica* em Python.
-+ 
-+ ---
-+ 
-+ ###🚀 Como rodar o projeto
-+ 
-+ ### 1. Clonar o repositório
-+ Se ainda não tiver o projeto localmente, use:
-+ ```bash
-+ git clone https://github.com/martareinhardt/Theory-Cosmology-Unified-.git
-+ cd Theory-Cosmology-Unified-
-+ ```
-+ 
-+ ###2. Instalar as dependências
-+ Com o Python instalado, execute:
-+ ```bash
-+ pip install -r requirements.txt
-+ ```
-+ 
-+ ### 3. Executar uma simulação de exemplo
++ ###3. Executar uma simulação de exemplo
 + ```bash
 + python run_simulations.py --example
 + ```
@@ -54,7 +47,7 @@
 
 '''
 
-###📊 Objetivo científico
+###📊Objetivo científico
 
 O projeto investiga:
 
@@ -68,7 +61,7 @@ Visualização da evolução temporal do universo observável
 Resultados parciais e gráficos estão em results/ e no documento técnico em paper/
 ---
 
-### 🔭 Próximos Passos
+###🔭Próximos Passos
 - Implementar modelos com energia escura dinâmica
 - Automatizar testes com GitHub Actions
 - Adicionar documentação científica em formato LaTeX
