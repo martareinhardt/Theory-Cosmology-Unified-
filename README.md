@@ -1,6 +1,5 @@
 
 ---
-
 + # 🪐 Theory Cosmology Unified
 + 
 + Um modelo numérico para testar hipóteses de **unificação cosmológica**, simulando a variação de constantes físicas ao longo do tempo.  
