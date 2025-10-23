@@ -39,6 +39,21 @@ Eta → Omega	Advanced & Final Eras	Entropy growth, tensor modes, unification at
 Each equation in the sequence generalizes the Friedmann equation:
 
 \left( \frac{\dot{a}(t)}{a(t)} \right)^2 = \frac{8\pi G}{3} \rho(t) - \frac{k c^2}{a(t)^2} + \frac{\Lambda c^2}{3} + \text{perturbative terms}
+## 🚀 Executando as Simulações do Modelo AAD
+
+Para rodar o solver de acoplamento dinâmico e gerar os gráficos comparativos, siga os passos abaixo no seu terminal:
+
+### 1. Pré-requisitos
+Certifique-se de que você tem o Git e o Python (3.x) instalados.
+
+### 2. Instalação (Clonar e Configurar)
+```bash
+git clone [https://github.com/martareinhardt/Theory-Cosmology-Unified-](https://github.com/martareinhardt/Theory-Cosmology-Unified-)
+cd Theory-Cosmology-Unified-
+pip install -r requirements.txt
+python run_simulations.py
+
+
 
 
 ---
