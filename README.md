@@ -33,7 +33,7 @@ notebooks/example_simulation.ipynb
 ├── requirements.txt        # Project dependencies  
 └── README.md               # This documentation file
 
-'''
+
 ##📊 Scientific Goal
 
 This project investigates:
@@ -48,7 +48,7 @@ Visualization of the temporal evolution of the observable universe
 Partial results and visualizations are stored in the results/ folder and documented in paper/.
 
 
----
+
 
 ##🔭 Next Steps
 
@@ -62,7 +62,7 @@ Create an interactive web visualization with Plotly or Bokeh
 
 
 
----
+
 
 ##🤝 Contributing
 
