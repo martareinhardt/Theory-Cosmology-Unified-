@@ -49,6 +49,19 @@
 ├── requirements.txt        # Dependências do projeto
 └── README.md               # Este arquivo de instruções
 ---
+📊 Objetivo científico
+
+O projeto investiga:
+
+Modelos cosmológicos com constantes variáveis (por exemplo, H₀(t), G(t))
+
+Equações de expansão e densidade de energia
+
+Visualização da evolução temporal do universo observável
+
+
+Resultados parciais e gráficos estão em results/ e no documento técnico em paper/
+---
 
 ## 🔭 Próximos Passos
 - Implementar modelos com energia escura dinâmica
