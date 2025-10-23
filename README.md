@@ -1,5 +1,6 @@
 ![Python](https://img.shields.io/badge/Python-3.11-blue) ![License: CC BY 4.0](https://img.shields.io/badge/license-CC--BY--4.0-lightgrey) ![Status](https://img.shields.io/badge/status-active-success) ![Build Status](https://github.com/martareinhardt/Theory-Cosmology-Unified-/actions/workflows/ci_run_simulations.yml/badge.svg)
 
+
 # 🪐 Theory Cosmology Unified
 
 A numerical model to test hypotheses of **cosmological unification**, simulating the variation of physical constants over time.  
