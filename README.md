@@ -1,3 +1,6 @@
+![Python](https://img.shields.io/badge/python-3.11-blue)
+![Astropy](https://img.shields.io/badge/astropy-6.0+-green)
+![Testes](https://github.com/martareinhardt/Theory-Cosmology-Unified-/actions/workflows/python_tests.yml/badge.svg)
 ![Python](https://img.shields.io/badge/Python-3.11-blue) ![Status](https://img.shields.io/badge/status-active-success) 
 ![Build Status](https://github.com/martareinhardt/Theory-Cosmology-Unified-/actions/workflows/python_tests.yml/badge.svg)
 [![License: CC BY 4.0](https://img.shields.io/badge/License-CC%20BY%204.0-lightgrey.svg)](https://creativecommons.org/licenses/by/4.0/)
