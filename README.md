@@ -14,17 +14,22 @@ This project combines *theoretical physics*, *numerical analysis*, and *scientif
 ## 🚀 How to Run the Project
 
 ###  Clone the repository  
+
 ```bash
 git clone https://github.com/martareinhardt/Theory-Cosmology-Unified-.git
 cd Theory-Cosmology-Unified-
----
+'''
 pip install -r requirements.txt
 
----
+'''
 python run_simulations.py --example
 
----
+'''
 notebooks/example_simulation.ipynb
+
+'''
+[Open in Colab](https://colab.research.google.com/github/martareinhardt/Theory-Cosmology-Unified-/blob/main/notebooks/example_simulation.ipynb)
+
 
 ├── run_simulations.py      # Main simulation script  
 ├── results/                # Generated plots and data  
