@@ -5,6 +5,11 @@
 ![Build Status](https://github.com/martareinhardt/Theory-Cosmology-Unified-/actions/workflows/python_tests.yml/badge.svg)
 [![License: CC BY 4.0](https://img.shields.io/badge/License-CC%20BY%204.0-lightgrey.svg)](https://creativecommons.org/licenses/by/4.0/)
 
+from ipywidgets import interact
+@interact(alpha=(0.0, 0.1, 0.01))
+def plot_hz(alpha):
+    # Seu código de H(z) aqui
+    plt.plot(z, H_seu); plt.show()
 
 # 🪐 Theory Cosmology Unified
 
