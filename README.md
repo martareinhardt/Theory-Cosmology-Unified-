@@ -1,78 +1,93 @@
-
 ![Python](https://img.shields.io/badge/Python-3.11-blue) ![License: CC BY 4.0](https://img.shields.io/badge/license-CC--BY--4.0-lightgrey) ![Status](https://img.shields.io/badge/status-active-success)
 
 # 🪐 Theory Cosmology Unified
 
-Um modelo numérico para testar hipóteses de **unificação cosmológica**, simulando a variação de constantes físicas ao longo do tempo.  
-Este projeto combina *física teórica*, *análise numérica* e *visualização científica* em Python.
+A numerical model to test hypotheses of **cosmological unification**, simulating the variation of physical constants over time.  
+This project combines *theoretical physics*, *numerical analysis*, and *scientific visualization* in Python.
 
 <p align="center">
-  <img src="results/sample_cosmology_plot.png" width="500" alt="Simulação Cosmológica">
+  <img src="results/sample_cosmology_plot.png" width="500" alt="Cosmological Simulation Preview">
 </p>
 
 ---
 
-## 🚀 Como rodar o projeto
+## 🚀 How to Run the Project
 
-### 1. Clonar o repositório  
+### 1. Clone the repository  
 ```bash
 git clone https://github.com/martareinhardt/Theory-Cosmology-Unified-.git
 cd Theory-Cosmology-Unified-
-+ 
-+ ###3. Executar uma simulação de exemplo
-+ ```bash
-+ python run_simulations.py --example
-+ ```
-+ 
-+ Ou, se preferir, abra o notebook:
-+ ```bash
-+ notebooks/example_simulation.ipynb
 ---
-<p align="center">
-  <img src="results/sample_cosmology_plot.png" width="500" alt="Simulação Cosmológica">
-</p>
-+
+pip install -r requirements.txt
 
- ```
-+ para visualizar os gráficos de forma interativa.
-+ 
+---
+python run_simulations.py --example
 
-+ ---
-├── run_simulations.py      # Código principal de simulação
-├── results/                # Saídas gráficas e dados numéricos
-├── notebooks/              # Experimentos interativos (Jupyter)
-├── paper/                  # Texto científico e anotações
-├── requirements.txt        # Dependências do projeto
-└── README.md               # Este arquivo de instruções
+---
+notebooks/example_simulation.ipynb
+
+├── run_simulations.py      # Main simulation script  
+├── results/                # Generated plots and data  
+├── notebooks/              # Interactive experiments (Jupyter)  
+├── paper/                  # Scientific notes and drafts  
+├── requirements.txt        # Project dependencies  
+└── README.md               # This documentation file
 
 '''
+📊 Scientific Goal
 
-## 📊Objetivo científico
+This project investigates:
 
-O projeto investiga:
+Cosmological models with variable physical constants (e.g., H₀(t), G(t))
 
-Modelos cosmológicos com constantes variáveis (por exemplo, H₀(t), G(t))
+Expansion and energy density equations
 
-Equações de expansão e densidade de energia
-
-Visualização da evolução temporal do universo observável
+Visualization of the temporal evolution of the observable universe
 
 
-Resultados parciais e gráficos estão em results/ e no documento técnico em paper/
----
+Partial results and visualizations are stored in the results/ folder and documented in paper/.
 
-## 🔭Próximos Passos
-- Implementar modelos com energia escura dinâmica
-- Automatizar testes com GitHub Actions
-- Adicionar documentação científica em formato LaTeX
 
 ---
 
-Quando quiser, posso mandar **também o conteúdo completo para o `CONTRIBUTING.md` e templates** (Issue e Pull Request) e te guiar pela criação. Quer que eu prepare agora?0
+🔭 Next Steps
+
+Implement models with dynamic dark energy
+
+Automate testing and code quality checks using GitHub Actions
+
+Add scientific documentation in LaTeX or PDF format
+
+Create an interactive web visualization with Plotly or Bokeh
+
+
+
 ---
-## 🧾 Citação
-Se este projeto contribuir para sua pesquisa, cite como:
-> Reinhardt, M. (2025). *Theory Cosmology Unified*. GitHub repository:  
-> https://github.com/martareinhardt/Theory-Cosmology-Unified-
-'''
-+ *© 2025 Marta Reinhardt · Licença CC BY 4.0*
+
+🤝 Contributing
+
+1. Fork this repository
+
+
+2. Create a branch for your modification (git checkout -b feature/your-feature-name)
+
+
+3. Commit your changes (git commit -m 'description of modification')
+
+
+4. Submit a Pull Request 🚀
+
+
+
+See also: CONTRIBUTING.md
+
+
+---
+
+📜 License
+
+Licensed under Creative Commons Attribution (CC BY 4.0).
+© 2025 Marta Reinhardt
+
+---
+
