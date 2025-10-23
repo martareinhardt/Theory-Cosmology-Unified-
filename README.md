@@ -11,7 +11,7 @@
 + 
 + ---
 + 
-+ ## 🚀 Como rodar o projeto
++ #🚀 Como rodar o projeto
 + 
 + ### 1. Clonar o repositório
 + Se ainda não tiver o projeto localmente, use:
@@ -20,7 +20,7 @@
 + cd Theory-Cosmology-Unified-
 + ```
 + 
-+ ### 2. Instalar as dependências
++ # 2. Instalar as dependências
 + Com o Python instalado, execute:
 + ```bash
 + pip install -r requirements.txt
@@ -52,10 +52,9 @@
 ├── requirements.txt        # Dependências do projeto
 └── README.md               # Este arquivo de instruções
 
+'''
 
----
-
-##📊 Objetivo científico
+#📊 Objetivo científico
 
 O projeto investiga:
 
@@ -69,7 +68,7 @@ Visualização da evolução temporal do universo observável
 Resultados parciais e gráficos estão em results/ e no documento técnico em paper/
 ---
 
-## 🔭 Próximos Passos
+# 🔭 Próximos Passos
 - Implementar modelos com energia escura dinâmica
 - Automatizar testes com GitHub Actions
 - Adicionar documentação científica em formato LaTeX
