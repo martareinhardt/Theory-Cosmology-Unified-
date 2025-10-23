@@ -32,10 +32,7 @@ notebooks/example_simulation.ipynb
 
 ---
 [Open in Colab](https://colab.research.google.com/github/martareinhardt/Theory-Cosmology-Unified-/blob/main/notebooks/example_simulation.ipynb)
-
----
-
-
+>
 ├── run_simulations.py      # Main simulation script  
 ├── results/                # Generated plots and data  
 ├── notebooks/              # Interactive experiments (Jupyter)  
@@ -57,6 +54,31 @@ Visualization of the temporal evolution of the observable universe
 
 
 Partial results and visualizations are stored in the results/ folder and documented in paper/.
+
+## 📚 References & Scientific Credits
+
+The theoretical foundation of this project stands on the work of many brilliant scientists whose research and ideas have shaped modern cosmology and fundamental physics.
+
+Special acknowledgment is due to:
+
+Albert Einstein (1879–1955) – for the General Theory of Relativity, the cornerstone of modern cosmology.
+
+Edwin Hubble (1889–1953) – for the observational evidence of an expanding Universe.
+
+Stephen Hawking (1942–2018) – for his contributions to black hole thermodynamics and quantum cosmology.
+
+Roger Penrose (1931–) – for his pioneering work in mathematical physics and spacetime singularities.
+
+Alan Guth (1947–) – for the theory of cosmic inflation.
+
+Andrei Linde (1948–) – for the development of the chaotic and eternal inflation models.
+
+George Ellis (1939–) and Dennis Sciama (1926–1999) – for contributions to relativistic cosmology.
+
+Planck Collaboration (2018) – for precision cosmological data and parameters.
+
+
+This repository aims to unify theoretical insights and computational methods in cosmology, inspired by their legacy and guided by the ongoing quest to understand the Universe as a coherent whole.
 
 
 
