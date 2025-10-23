@@ -28,6 +28,10 @@ jobs:
           python -m pip install --upgrade pip
           pip install -r requirements.txt
 
-      - name: Run simulation example
+      - - name: Run simulation example
         run: |
           python run_simulations.py --example
+
+      - name: Run tests
+        run: |
+          pytest -v
