@@ -15,6 +15,8 @@ cd Theory-Cosmology-Unified-
 pip install -r requirements.txt
 python run_simulations.py --example
 
+---
+
 notebooks/example_simulation.ipynb
 
 ---
