@@ -35,7 +35,7 @@ notebooks/example_simulation.ipynb
 
 ```
 
-##📊 Scientific Goal
+###📊 Scientific Goal
 
 This project investigates:
 
@@ -51,7 +51,7 @@ Partial results and visualizations are stored in the results/ folder and documen
 
 
 
-##🔭 Next Steps
+###🔭 Next Steps
 
 Implement models with dynamic dark energy
 
@@ -65,7 +65,7 @@ Create an interactive web visualization with Plotly or Bokeh
 
 
 
-##🤝 Contributing
+###🤝 Contributing
 
 1. Fork this repository
 
