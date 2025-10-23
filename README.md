@@ -47,7 +47,7 @@ cd Theory-Cosmology-Unified-
 
 '''
 
-###📊Objetivo científico
+## 📊Objetivo científico
 
 O projeto investiga:
 
@@ -61,7 +61,7 @@ Visualização da evolução temporal do universo observável
 Resultados parciais e gráficos estão em results/ e no documento técnico em paper/
 ---
 
-###🔭Próximos Passos
+## 🔭Próximos Passos
 - Implementar modelos com energia escura dinâmica
 - Automatizar testes com GitHub Actions
 - Adicionar documentação científica em formato LaTeX
