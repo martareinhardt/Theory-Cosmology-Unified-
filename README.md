@@ -49,6 +49,7 @@
 ├── requirements.txt        # Dependências do projeto
 └── README.md               # Este arquivo de instruções
 ---
+
 ## 🔭 Próximos Passos
 - Implementar modelos com energia escura dinâmica
 - Automatizar testes com GitHub Actions
@@ -56,5 +57,6 @@
 ---
 
 Quando quiser, posso mandar **também o conteúdo completo para o `CONTRIBUTING.md` e templates** (Issue e Pull Request) e te guiar pela criação. Quer que eu prepare agora?0
+---
 + 
 + *© 2025 Marta Reinhardt · Licença CC BY 4.0*
