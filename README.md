@@ -30,6 +30,7 @@ notebooks/example_simulation.ipynb
 '''
 [Open in Colab](https://colab.research.google.com/github/martareinhardt/Theory-Cosmology-Unified-/blob/main/notebooks/example_simulation.ipynb)
 
+'''
 
 ├── run_simulations.py      # Main simulation script  
 ├── results/                # Generated plots and data  
