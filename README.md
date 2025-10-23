@@ -33,6 +33,7 @@ notebooks/example_simulation.ipynb
 ├── requirements.txt        # Project dependencies  
 └── README.md               # This documentation file
 
+```
 
 ##📊 Scientific Goal
 
