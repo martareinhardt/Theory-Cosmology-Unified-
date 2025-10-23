@@ -70,5 +70,9 @@ Resultados parciais e gráficos estão em results/ e no documento técnico em pa
 
 Quando quiser, posso mandar **também o conteúdo completo para o `CONTRIBUTING.md` e templates** (Issue e Pull Request) e te guiar pela criação. Quer que eu prepare agora?0
 ---
-+ 
+## 🧾 Citação
+Se este projeto contribuir para sua pesquisa, cite como:
+> Reinhardt, M. (2025). *Theory Cosmology Unified*. GitHub repository:  
+> https://github.com/martareinhardt/Theory-Cosmology-Unified-
+'''
 + *© 2025 Marta Reinhardt · Licença CC BY 4.0*
